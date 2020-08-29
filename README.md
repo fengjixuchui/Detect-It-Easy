@@ -1,9 +1,13 @@
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/horsicq/DIE-engine.svg)](http://ntinfo.biz)
 [![GitHub All Releases](https://img.shields.io/github/downloads/horsicq/DIE-engine/total.svg)](http://ntinfo.biz)
+[![gitlocalized ](https://gitlocalize.com/repo/4736/whole_project/badge.svg)](https://gitlocalize.com/repo/4736/whole_project?utm_source=badge)
 
-Detect-It-Easy
+Detect It Easy
 ==============
-![alt text](https://github.com/horsicq/Detect-It-Easy/blob/master/mascots/2.05.jpg "Version")
+
+**For windows users: If you have Antivirus issues please use the version: https://github.com/horsicq/DIE-engine/releases/download/3.00/die_win32_portable_noloader_3.00.zip**
+
+![alt text](https://github.com/horsicq/Detect-It-Easy/blob/master/mascots/3.00.jpg "Version")
 ![alt text](https://github.com/horsicq/Detect-It-Easy/blob/master/screenshot.jpg "Screenshot")
 
 Detect It Easy, or abbreviated "DIE" is a program for determining types of files.
@@ -45,4 +49,58 @@ which lie in the corresponding folder. Currently the program defines the followi
 
 * Binary all other files
 
-You could download binaries for Windows, Linux and Mac here: http://ntinfo.biz/
+Download: https://github.com/horsicq/DIE-engine/releases
+
+![alt text](https://github.com/horsicq/Detect-It-Easy/blob/master/mascots/die.jpg "Mascot")
+
+How to build on Linux
+=======
+
+Install Qt 5.12.8: https://github.com/horsicq/build_tools
+
+Clone project: git clone --recursive https://github.com/horsicq/DIE-engine.git
+
+Edit build_lin64.bat ( check QT_PATH variable)
+
+Run build_lin64.bat
+
+How to build on OSX
+=======
+
+Install Qt 5.12.8: https://github.com/horsicq/build_tools
+
+Clone project: git clone --recursive https://github.com/horsicq/DIE-engine.git
+
+Edit build_mac.bat ( check QT_PATH variable)
+
+Run build_mac.bat
+
+How to build on Windows(XP)
+=======
+
+Install Visual Studio 2013: https://github.com/horsicq/build_tools
+
+Install Qt 5.6.3 for VS2013: https://github.com/horsicq/build_tools
+
+Install 7-Zip: https://github.com/horsicq/build_tools
+
+Clone project: git clone --recursive https://github.com/horsicq/DIE-engine.git
+
+Edit build_winxp.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
+
+Run build_winxp.bat
+
+How to build on Windows(7-10)
+=======
+
+Install Visual Studio 2017: https://github.com/horsicq/build_tools
+
+Install Qt 5.12.8 for VS2017: https://github.com/horsicq/build_tools
+
+Install 7-Zip: https://github.com/horsicq/build_tools
+
+Clone project: git clone --recursive https://github.com/horsicq/DIE-engine.git
+
+Edit build_win32.bat ( check VS_PATH,  SEVENZIP_PATH, QT_PATH variables)
+
+Run build_win32.bat
